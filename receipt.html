@@ -20,8 +20,18 @@
 	  	text-align: center;
 	  	padding-top: 10px;
 	  }
-      .span8 {
-        border: #CECECE 1px solid;
+      .receiptbox {
+        max-width: 500px;
+        padding: 19px 19px 19px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
       }
 
 
@@ -44,22 +54,76 @@
   <body>
 
     <div class="container">
+    	
+    	<div class="receiptbox">
+    		
 <div class="row-fluid">
   <div class="span12"><h3>Donation Manager - Receipt</h3></div>
 </div>
 <div class="row-fluid">
-  <div class="span12">Create New Donation</div>
-</div>
-<div class="row-fluid">
-  <div class="span12"><h3>Past Donations</h3></div>
+  <div class="span2">  </div>
+  <div class="span8">
+  	<h3> --Organization Name-- </h3>
+  	<p>--Organization Address--</p>
+  	<p>--Organization Phone--</p>
+  	</div>
+  <div class="span2">  </div>
 </div>
 <div class="row-fluid">
   <div class="span2">  </div>
-  <div class="span8">List Past Donations Here</div>
+  <div class="span8"> --Receipt Message-- </div>
+  <div class="span2">  </div>
+</div>
+<div class="row-fluid">
+  <div class="span2">  </div>
+  <div class="span8">
+  	<p>--Date--</p>
+  	<p>--Donor Name--</p>
+  	<p>--Donor Address--</p>
+  	</div>
+  <div class="span2">  </div>
+</div>
+<div class="row-fluid">
+  <div class="span3">  </div>
+  	<div class="span2">--Donor City--</div>
+  	<div class="span2">--Donor State--</div> 
+  	<div class="span2">--Donor Zip--</div>
+  <div class="span3">  </div>
+</div>
+<div class="row-fluid">
+  <div class="span2">  </div>
+  <div class="span8">
+  	--Item List--
+  	<ul style="list-style-type:none;">
+  		<li><input type="checkbox"> Item 1 </li>
+  		<li><input type="checkbox"> Item 2 </li>
+  		<li><input type="checkbox"> Item 3 </li>
+  		<li><input type="checkbox"> Other (specify)</li>
+  	</ul>
+  	</div>
+  <div class="span2">  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span2">  </div>
+  <div class="span8">
+  	$ --Fair Market Value of Donation-- Fair Market Value
+  	</div>
+  <div class="span2">  </div>
+</div>
+<div class="row-fluid">
+  <div class="span2">  </div>
+  	<div class="span8">
+  	<p>--Receipt Thank You--</p>
+  	<p>__________________________________________</p>
+  	<p>--Organization Name-- Representative</p>
+  	<p>--Receipt Disclaimer--</p>
+  	</div>
   <div class="span2">  </div>
 </div>
 
 
+</div>
 
     </div> <!-- /container -->
 
